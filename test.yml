@@ -1,0 +1,30 @@
+app:
+  name: "My PHP Application"
+  version: "1.0.0"
+  environment: "development"
+  debug: true
+  timezone: "Asia/Kolkata"
+
+database:
+  driver: "mysql"
+  host: "localhost"
+  port: 3306
+  name: "my_database"
+  username: "root"
+  password: ""
+
+paths:
+  base: "./"
+  uploads: "uploads/"
+  logs: "logs/"
+
+security:
+  session_lifetime: 3600
+  encryption: true
+
+mail:
+  host: "smtp.example.com"
+  port: 587
+  username: ""
+  password: ""
+  encryption: "tls"
